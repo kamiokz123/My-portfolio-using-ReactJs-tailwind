@@ -15,14 +15,17 @@ function Home() {
                         focus on clean code and modern design, I strive to bring innovative ideas to
                         life while ensuring performance and accessibility.
                     </p>
-                    <button className='group w-[150px] border p-1 rounded-lg flex items-center justify-center gap-1 bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>
-                        portfolio
-                        <span className='group-hover:rotate-90 duration-200'>
-                        <FaArrowRight />
-                        </span>
-                    </button>
+                    <a href="#portfolio">
+                        <button className='group w-[150px] border p-1 rounded-lg flex items-center justify-center gap-1 bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>
+                            portfolio
+                            <span className='group-hover:rotate-90 duration-200'>
+                                <FaArrowRight />
+                            </span>
+                        </button>
+                    </a>
                     <div className='flex gap-3 mt-3 text-white '>
-                        <a href="https://pk.linkedin.com/in/kamran-haider-orakzai-065566180" target='_blank' className='hover:text-blue-400 duration-200 hover:scale-110'> <i className="fab fa-react"><FaLinkedin size={25}/></i> </a>
+
+                        <a href="https://pk.linkedin.com/in/kamran-haider-orakzai-065566180" target='_blank' className='hover:text-blue-400 duration-200 hover:scale-110'> <i className="fab fa-react"><FaLinkedin size={25} /></i> </a>
                         <a href="https://github.com/kamiokz123" target='_blank' className='hover:text-blue-400 duration-200 hover:scale-110'> <i className="fab fa-react"><FaGithub size={25} /></i>  </a>
                         <a href="mailto:haiderokz888@gmail.com" target='_blank' className='hover:text-blue-400 duration-200 hover:scale-110'> <i className="fab fa-react"> <MdEmail size={25} /></i>  </a>
 
