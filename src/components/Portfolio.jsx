@@ -56,7 +56,7 @@ function Portfolio() {
   ] 
   return (
     <>
-    <div className=" min-h-[88vh] flex flex-col mx-auto  justify-center items-center p-8 pt-11  text-gray-400  bg-gradient-to-b from-black to-gray-800 text-center ">
+    <div id='portfolio' className=" min-h-[100vh] flex flex-col mx-auto  justify-center items-center p-8 pt-11  text-gray-400  bg-gradient-to-b from-black to-gray-800 text-center ">
 
         <div className='flex flex-col justify-center items-center gap-3'>
         <h2 className='text-center font-bold text-3xl text-white  w-[150px] p-2 '>Portfolio</h2>

@@ -5,7 +5,7 @@ import ProfileImg from "../assets/profile-img.jpeg"
 function About() {
   return (
     <>
-    <div className='bg-gradient-to-b from-black mx-auto to-gray-800 text-gray-400 min-h-[87vh] flex flex-col justify-center items-center gap-8 py-8'>
+    <div id='about' className='bg-gradient-to-b from-black mx-auto to-gray-800 text-gray-400 min-h-[100vh] flex flex-col justify-center items-center gap-8 py-8'>
         <h2 className='text-center font-bold text-3xl text-white '>About Me</h2>
         <div className='flex flex-col md:flex-row justify-center items-center '>
 

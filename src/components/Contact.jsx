@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
     return (
         <>
-            <div className='min-h-[88vh] py-6 px-6 bg-gradient-to-b from-black to-gray-800 flex flex-col mx-auto justify-center items-center text-gray-400'>
+            <div id='contact' className='min-h-[100vh] py-6 px-6 bg-gradient-to-b from-black to-gray-800 flex flex-col mx-auto justify-center items-center text-gray-400'>
 
                 <div className='flex flex-col items-center'>
                     <h2 className='text-center font-bold text-3xl text-white  w-[150px] p-2'>Contact</h2>

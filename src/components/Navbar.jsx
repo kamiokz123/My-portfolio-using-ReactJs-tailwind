@@ -6,23 +6,23 @@ function Navbar() {
     const navItems = [
         {
             id: 1,
-            link: "Home"
+            link: <a href="#home" onClick={() => setShowMenu(!showMenu)} className='hover:text-white hover:scale-105 cursor-pointer'>Home</a>
         },
         {
             id: 2,
-            link: "About"
+            link: <a href="#about" onClick={() => setShowMenu(!showMenu)} className='hover:text-white hover:scale-105 cursor-pointer'>About</a>
         },
         {
             id: 3,
-            link: "Portfolio"
+            link: <a href="#portfolio" onClick={() => setShowMenu(!showMenu)} className='hover:text-white hover:scale-105 cursor-pointer'>Portfolio</a>
         },
         {
             id: 4,
-            link: "Skills"
+            link: <a href="#skills" onClick={() => setShowMenu(!showMenu)} className='hover:text-white hover:scale-105 cursor-pointer'>Skills</a>
         },
         {
             id: 5,
-            link: "Contact"
+            link: <a href="#contact" onClick={() => setShowMenu(!showMenu)} className='hover:text-white hover:scale-105 cursor-pointer'>Contact</a>
         }
     ]
     return (
@@ -34,7 +34,7 @@ function Navbar() {
                     {navItems.map(({ id, link }) => (
                         <li
                             key={id}
-                            className='px-3 text-gray-400 font-bold hover:text-white hover:scale-105 duration-200 cursor-pointer'
+                            className='px-3 text-gray-400 font-bold   duration-200'
                         >{link}</li>
                     ))}
                         <li className='px-3 text-gray-400 font-bold   duration-200 '><a className='hover:text-white hover:scale-105 cursor-pointer' href="/my-resume.pdf" download={"kamran-haider-resume.pdf"}>Resume</a></li>

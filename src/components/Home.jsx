@@ -6,7 +6,7 @@ import { MdEmail } from 'react-icons/md';
 function Home() {
     return (
         <>
-            <div className=" min-h-[88vh] mx-auto  text-gray-400 flex flex-col md:flex-row justify-center items-center bg-gradient-to-b from-black to-gray-800 gap-4 text-center px-2 mt-20 py-6">
+            <div id='home' className=" min-h-[100vh] mx-auto  text-gray-400 flex flex-col md:flex-row justify-center items-center bg-gradient-to-b from-black to-gray-800 gap-4 text-center px-2 mt-20 py-6">
                 <div className="p-6  mt-8  justify-center items-center flex flex-col  gap-5">
                     <h2 className='font-bold text-2xl '>Hi, I'm <span className='text-white'>Kamran Haider </span>, a <span className='text-white'>Frontend Developer </span> specializing in React and Next.js</h2>
                     <p>

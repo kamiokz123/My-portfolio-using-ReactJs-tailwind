@@ -85,7 +85,7 @@ function Skills() {
   ];
   
   return (
-    <div className=' min-h-[88vh] py-10  mx-auto flex flex-col justify-center  items-center p-8 pt-11  text-gray-400  bg-gradient-to-b from-black to-gray-800 text-center'>
+    <div id='skills' className=' min-h-[100vh] py-10  mx-auto flex flex-col justify-center  items-center p-8 pt-11  text-gray-400  bg-gradient-to-b from-black to-gray-800 text-center'>
       
       <div className='flex flex-col items-center'>
         <h2 className='text-center font-bold text-3xl text-white  w-[150px] p-2'>Skills</h2>
